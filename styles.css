@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 body {
     font-family: pixelify-sans-unique, sans-serif;
@@ -7,6 +9,7 @@ body {
     background-color: #f4f4f4;
     margin-left: 20px;
     align-items: center;
+    float: inline-start;
 }
 @font-face {
     font-family: 'Pixelify Sans';
@@ -19,7 +22,7 @@ header h1 {
 }
 
 p {
-    max-width: 500px;
+    max-width: 1000px;
     color: rgb(37, 37, 101);
     font-family: Caveat, cursive;
     font-size: 25px;
@@ -34,8 +37,10 @@ div {
     margin-top: 10px;
     border: 5px double rgb(52, 124, 137);
     padding: 10px;
-    width: fit-content;
+    max-width: 1000px;
+    margin-right: 20px;
     border-radius: 25px;
+
 }
 
 ::marker {
@@ -43,52 +48,4 @@ div {
   font-size: 20px;
   padding-left: 10px;
   margin-left: 100px;
-}
-
-
-
-/*
-main-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-*/
-
-* {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  padding: 10px;
-}
-
-.left {
-  width: 30%;
-  background-color: rgb(215, 228, 216);
-  height: 650px
-}
-
-.right {
-  width: 60%;
-  margin-left: 10px;
-  height: 650px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.art_that_I_love {
-    background-color: rgb(182, 149, 116);
-    padding: 20px;
-    border-radius: 15px;
-    color: rgb(36, 33, 54);
-}
-
-a {
-    color: rgb(30, 63, 63);
 }
