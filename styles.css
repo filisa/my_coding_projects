@@ -2,14 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
-    font-family: pixelify-sans-unique, sans-serif;
+body, html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #262323;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    float: inline-start;
+    justify-content: center;
+    color: rgb(202, 186, 186);
 }
 @font-face {
     font-family: 'Pixelify Sans';
@@ -17,15 +20,12 @@ body {
     font-display: swap;
 }
 
-header h1 {
-    font-family: 'Pixelify Sans', sans-serif;
+h1 {
+    font-size: 35px;
 }
-
 p {
     max-width: 1000px;
-    color: rgb(37, 37, 101);
-    font-family: Caveat, cursive;
-    font-size: 25px;
+    font-size: 20px;
 }
 @font-face {
     font-family: 'Caveat';
@@ -35,7 +35,7 @@ p {
 
 div {
     margin-top: 10px;
-    border: 5px double rgb(52, 124, 137);
+    border: 5px solid rgb(59, 76, 79);
     padding: 10px;
     max-width: 1000px;
     margin-right: 20px;
@@ -44,8 +44,11 @@ div {
 }
 
 ::marker {
-  color: rgb(42, 60, 80);
   font-size: 20px;
   padding-left: 10px;
   margin-left: 100px;
+}
+
+a {
+    color: rgb(210, 194, 194);
 }
