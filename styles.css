@@ -1,58 +1,59 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body, html {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #262323;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgb(202, 186, 186);
+body,
+html {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #262323;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(202, 186, 186);
 }
 @font-face {
-    font-family: 'Pixelify Sans';
-    src: url('./PixelifySans-Regular.ttf') format('truetype');
-    font-display: swap;
+	font-family: "Pixelify Sans";
+	src: url("./PixelifySans-Regular.ttf") format("truetype");
+	font-display: swap;
 }
 
 h1 {
-    font-size: 35px;
+	font-size: 35px;
 }
 p {
-    max-width: 1000px;
-    font-size: 20px;
+	max-width: 1000px;
+	font-size: 20px;
 }
 @font-face {
-    font-family: 'Caveat';
-    src: url('Caveat-VariableFont_wght.ttf') format('truetype');
-    font-display: swap;
+	font-family: "Caveat";
+	src: url("Caveat-VariableFont_wght.ttf") format("truetype");
+	font-display: swap;
 }
 
 div {
-    margin-top: 10px;
-    border: 5px solid rgb(59, 76, 79);
-    padding: 10px;
-    max-width: 1000px;
-    margin-right: 20px;
-    border-radius: 25px;
+	margin-top: 10px;
+	border: 5px solid rgb(59, 76, 79);
+	padding: 2vw;
+	max-width: 1000px;
+	margin-right: 20px;
+	border-radius: 25px;
 }
 
 div:hover {
-    border: 5px solid rgb(160, 186, 190);
-    box-shadow: 0px 0px 10px rgb(194, 232, 55);
+	border: 5px solid rgb(160, 186, 190);
+	box-shadow: 0px 0px 10px rgb(194, 232, 55);
 }
 
 ::marker {
-  font-size: 20px;
-  padding-left: 10px;
-  margin-left: 100px;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-left: 100px;
 }
 
 a {
-    color: rgb(210, 194, 194);
+	color: rgb(210, 194, 194);
 }
